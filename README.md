@@ -1,6 +1,6 @@
 # Digital Central Starter
 
-Digital Central starter for Gatsby projects.
+Digital Central starter for Gatsby projects. See portfolio at [Digital Central](https://digital.central.sc)
 
 ## Stack
 

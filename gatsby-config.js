@@ -8,15 +8,15 @@ module.exports = {
     siteUrl: `https://digitalcentralstarter.gatsbyjs.io/`,
   },
   plugins: [
-    {
-      resolve: "gatsby-source-graphcms",
-      options: {
-        endpoint: process.env.GATSBY_GRAPHCMS_ENDPOINT,
-        // buildMarkdownNodes: true,
-        // downloadLocalImages: true,
-        stages: ["PUBLISHED"],
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-graphcms",
+    //   options: {
+    //     endpoint: process.env.GATSBY_GRAPHCMS_ENDPOINT,
+    //     // buildMarkdownNodes: true,
+    //     // downloadLocalImages: true,
+    //     stages: ["PUBLISHED"],
+    //   },
+    // },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -58,6 +58,21 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`,
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     trackingIds: [process.env.GATSBY_GTM_ID],
+    //     gtagConfig: {
+    //       // optimize_id: process.env.GATSBY_OPTIMIZE_ID,
+    //       anonymize_ip: true,
+    //       cookie_expires: 0,
+    //     },
+    //     pluginConfig: {
+    //       head: true,
+    //       respectDNT: true,
+    //     },
+    //   },
+    // },
     // {
     //   resolve: `gatsby-plugin-canonical-urls`,
     //   options: {

@@ -12,12 +12,12 @@ export default function IndexPage() {
   useEffect(() => {
     const counterIntervalId = setInterval(() => {
       setCount((count: number) => count + 1)
-    }, 1000)
+    }, 2000)
 
     setTimeout(() => {
       clearInterval(counterIntervalId)
       setCount(0)
-    }, 20000);
+    }, 40000);
 
     return () => {
       clearInterval(counterIntervalId)
